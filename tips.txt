@@ -1,0 +1,8 @@
+Execute normal mode commands.
+
+To programmatically send <Control-j> command
+:execute "norm \<C-j>"
+
+To insert a '#' at the beginning of a line containing "abc"
+:g/abc/norm ^i#
+
