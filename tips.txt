@@ -6,3 +6,7 @@ To programmatically send <Control-j> command
 To insert a '#' at the beginning of a line containing "abc"
 :g/abc/norm ^i#
 
+To calculate the value of some expression,
+Have the expression selected in a line via <S-v>
+Go into command mode by pressing colon : and type !bc and press return. The value should appear in place of the original text.
+
